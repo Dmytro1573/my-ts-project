@@ -438,3 +438,14 @@ import "./style.css";
 // };
 
 // type Params = Omit<Form, "errors">;
+
+// import axios, { AxiosResponse } from "axios";
+
+// async function getUser<T>(url: string): Promise<T> {
+//   try {
+//     const response: AxiosResponse<T> = await axios.get<T>(url);
+//     return response.data;
+//   } catch (error) {
+//     throw error;
+//   }
+// }
